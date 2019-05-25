@@ -1,0 +1,35 @@
+#node	id	node_type
+n	0	business
+n	1	location
+n	2	stars
+n	3	phrase
+#link	id	bidirection?	node_type_1	node_type_2	link_type
+l	0	0	0	1	located in
+l	1	0	1	0	located in
+l	2	0	0	3	described with
+l	3	0	3	0	described with
+l	4	0	0	2	rate
+l	5	0	2	0	rate
+l	6	1	3	3	context
+#label	node_type	label_id	parent_id	label_name
+s	0	0	0	Shopping
+s	0	1	0	Computers
+s	0	2	0	Arts & Crafts
+s	0	3	0	Cosmetics & Beauty Supply
+s	0	4	4	Restaurants
+s	0	5	4	Italian
+s	0	6	4	Asian Fusion
+s	0	7	4	American (New)
+s	0	8	4	Breakfast & Brunch
+s	0	9	9	Active Life
+s	0	10	9	Soccer
+s	0	11	9	Mountain Biking
+s	0	12	9	Bowling
+s	0	13	9	Fitness & Instruction
+s	0	14	13	Boxing
+s	0	15	13	Yoga
+s	2	0	0	1-Star
+s	2	1	1	2-Star
+s	2	2	2	3-Star
+s	2	3	3	4-Star
+s	2	4	4	5-Star
